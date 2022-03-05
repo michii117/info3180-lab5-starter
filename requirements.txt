@@ -8,6 +8,8 @@ Flask-Migrate
 Flask-Login
 psycopg2
 python-dotenv
+Flask-Login
+Flask-Migrate
 
 # ----------------------
 # Production Server
