@@ -49,11 +49,12 @@ def login():
             
             if user is not None and check_password_hash(user.password, password):
                 flash("You've successfully logged into your account.")
+                login_user(user)
                 return redirect(url_for("secure_page"))
-
+                
 
             # get user id, load into session
-            login_user(user)
+            
 
             
 
